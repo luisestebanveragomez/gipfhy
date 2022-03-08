@@ -1,0 +1,43 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding: 60px;
+}
+
+
+input {
+    color: grey;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    align-content: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 11px -1px rgb(179 177 177 / 50%);
+    overflow: hidden;
+}
+
+.card strong {
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.card img {
+    height: 170px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid {
+    display: grid;
+}
