@@ -1,12 +1,12 @@
+import React from 'react';
 import { useState } from 'react';
 
 import { GifGrid } from './components/GifGrid';
-import React from '.';
 import { AddCategory } from './components/AddCategory';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({ defaultCategories = [] }) => {
 
-  const [categories, setCategories]  = useState(['beach'])
+  const [categories, setCategories]  = useState(defaultCategories)
 
   return (
     <>
